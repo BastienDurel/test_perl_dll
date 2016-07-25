@@ -29,10 +29,11 @@
         <property category="build.config.1" name="type" value="Toolset"/>
         <property category="build.config.1" name="win32.win32b.builddir" value="Release_Build"/>
         <property category="build.node" name="dontverifylibs" value="1"/>
+        <property category="build.node" name="libraries" value="vcl.lib rtl.lib"/>
         <property category="build.node" name="name" value="test_perl_dll.exe"/>
         <property category="build.node" name="packages" value="vcl;rtl;vclx;dbrtl;vcldb;adortl;dbxcds;dbexpress;vclib;ibxpress;xmlrtl;vclactnband;inet"/>
         <property category="build.node" name="sparelibs" value="rtl.lib vcl.lib"/>
-        <property category="build.node" name="use_packages" value="1"/>
+        <property category="build.node" name="use_packages" value="0"/>
         <property category="build.platform" name="active" value="win32"/>
         <property category="build.platform" name="win32.Debug_Build.toolset" value="win32b"/>
         <property category="build.platform" name="win32.Release_Build.toolset" value="win32b"/>
@@ -102,8 +103,7 @@
           <property category="win32.*.win32b.bcc32" name="option.I.enabled" value="1"/>
           <property category="win32.*.win32b.bcc32" name="option.b.enabled" value="0"/>
           <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.1" value="_RTLDLL"/>
-          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.2" value="USEPACKAGES"/>
-          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.3" value="NO_STRICT"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.2" value="NO_STRICT"/>
           <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.merge" value="1"/>
           <property category="win32.*.win32b.bcc32" name="option.sysdefines.enabled" value="1"/>
           <property category="win32.*.win32b.bcc32" name="option.tW.enabled" value="1"/>
@@ -138,6 +138,9 @@
           <property category="win32.*.win32b.idl2cpp" name="option.I.arg.merge" value="1"/>
           <property category="win32.*.win32b.idl2cpp" name="option.I.enabled" value="1"/>
           <property category="win32.*.win32b.ilink32" name="option.Gi.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gpd.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.GpdGpr.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gpr.enabled" value="0"/>
           <property category="win32.*.win32b.ilink32" name="option.L.arg.1" value="C:\Users\bdurel\Documents\Borland Studio Projects\test_perl_dll"/>
           <property category="win32.*.win32b.ilink32" name="option.L.arg.2" value="$(BDS)\lib"/>
           <property category="win32.*.win32b.ilink32" name="option.L.arg.3" value="$(BDS)\lib\obj"/>
