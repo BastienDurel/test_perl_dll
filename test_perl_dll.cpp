@@ -3,8 +3,8 @@
 #include <vcl.h>
 #pragma hdrstop
 
-#define LINK_PERL
-#define LINK_CONF
+//#define LINK_PERL
+//#define LINK_CONF
 
 #if defined LINK_PERL
 #include "config.h"

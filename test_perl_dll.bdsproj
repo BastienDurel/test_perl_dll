@@ -15,7 +15,7 @@
 		<BCBPROJECT>
       <project version="10.0">
         <property category="build.config" name="active" value="0"/>
-        <property category="build.config" name="count" value="1"/>
+        <property category="build.config" name="count" value="4"/>
         <property category="build.config" name="excludedefaultforzero" value="0"/>
         <property category="build.config.0" name="builddir" value="Debug"/>
         <property category="build.config.0" name="key" value="Debug_Build"/>
@@ -28,7 +28,26 @@
         <property category="build.config.1" name="settings.win32b" value="default"/>
         <property category="build.config.1" name="type" value="Toolset"/>
         <property category="build.config.1" name="win32.win32b.builddir" value="Release_Build"/>
+        <property category="build.config.2" name="builddir" value="Debug"/>
+        <property category="build.config.2" name="key" value="config2"/>
+        <property category="build.config.2" name="name" value="Construction debogage perl"/>
+        <property category="build.config.2" name="settings.win32b" value="default"/>
+        <property category="build.config.2" name="type" value="Toolset"/>
+        <property category="build.config.2" name="win32.win32b.builddir" value="debug_build"/>
+        <property category="build.config.3" name="builddir" value="Debug"/>
+        <property category="build.config.3" name="key" value="config3"/>
+        <property category="build.config.3" name="name" value="Construction debogage confd"/>
+        <property category="build.config.3" name="settings.win32b" value="default"/>
+        <property category="build.config.3" name="type" value="Toolset"/>
+        <property category="build.config.3" name="win32.win32b.builddir" value="debug_build"/>
+        <property category="build.config.4" name="builddir" value="Debug"/>
+        <property category="build.config.4" name="key" value="config4"/>
+        <property category="build.config.4" name="name" value="Construction debogage both"/>
+        <property category="build.config.4" name="settings.win32b" value="default"/>
+        <property category="build.config.4" name="type" value="Toolset"/>
+        <property category="build.config.4" name="win32.win32b.builddir" value="debug_build"/>
         <property category="build.node" name="dontverifylibs" value="1"/>
+        <property category="build.node" name="lastconfig" value="config2"/>
         <property category="build.node" name="libraries" value="vcl.lib rtl.lib"/>
         <property category="build.node" name="name" value="test_perl_dll.exe"/>
         <property category="build.node" name="packages" value="vcl;rtl;vclx;dbrtl;vcldb;adortl;dbxcds;dbexpress;vclib;ibxpress;xmlrtl;vclactnband;inet"/>
@@ -37,6 +56,9 @@
         <property category="build.platform" name="active" value="win32"/>
         <property category="build.platform" name="win32.Debug_Build.toolset" value="win32b"/>
         <property category="build.platform" name="win32.Release_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.config2.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.config3.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.config4.toolset" value="win32b"/>
         <property category="build.platform" name="win32.default" value="win32b"/>
         <property category="build.platform" name="win32.enabled" value="1"/>
         <property category="build.platform" name="win32.win32b.enabled" value="1"/>
@@ -88,6 +110,88 @@
         <property category="win32.Release_Build.win32b.tasm32" name="param.listfile.merge" value="1"/>
         <property category="win32.Release_Build.win32b.tasm32" name="param.objfile.merge" value="1"/>
         <property category="win32.Release_Build.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        <property category="win32.config2.win32b.bcc32" name="container.SelectedWarnings.containerenabled" value="1"/>
+        <property category="win32.config2.win32b.bcc32" name="option.D.arg.1" value="_DEBUG"/>
+        <property category="win32.config2.win32b.bcc32" name="option.D.arg.2" value="LINK_PERL"/>
+        <property category="win32.config2.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.config2.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.config2.win32b.bcc32" name="option.Od.enabled" value="1"/>
+        <property category="win32.config2.win32b.bcc32" name="option.disablewarns.enabled" value="0"/>
+        <property category="win32.config2.win32b.bcc32" name="option.k.enabled" value="1"/>
+        <property category="win32.config2.win32b.bcc32" name="option.r.enabled" value="0"/>
+        <property category="win32.config2.win32b.bcc32" name="option.v.enabled" value="1"/>
+        <property category="win32.config2.win32b.bcc32" name="option.vi.enabled" value="0"/>
+        <property category="win32.config2.win32b.bcc32" name="option.w.enabled" value="0"/>
+        <property category="win32.config2.win32b.bcc32" name="option.y.enabled" value="1"/>
+        <property category="win32.config2.win32b.dcc32" name="option.$D.enabled" value="1"/>
+        <property category="win32.config2.win32b.dcc32" name="option.$O.enabled" value="0"/>
+        <property category="win32.config2.win32b.dcc32" name="option.D.arg.1" value="DEBUG"/>
+        <property category="win32.config2.win32b.dcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.config2.win32b.dcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.config2.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.config2.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\release"/>
+        <property category="win32.config2.win32b.ilink32" name="option.L.arg.2" value="$(BDS)\lib\debug"/>
+        <property category="win32.config2.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.config2.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.config2.win32b.tasm32" name="option.z.enabled" value="1"/>
+        <property category="win32.config2.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.config2.win32b.tasm32" name="option.zi.enabled" value="1"/>
+        <property category="win32.config2.win32b.tasm32" name="param.listfile.merge" value="1"/>
+        <property category="win32.config2.win32b.tasm32" name="param.objfile.merge" value="1"/>
+        <property category="win32.config2.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        <property category="win32.config3.win32b.bcc32" name="option.D.arg.1" value="_DEBUG"/>
+        <property category="win32.config3.win32b.bcc32" name="option.D.arg.2" value="LINK_CONF"/>
+        <property category="win32.config3.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.config3.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.config3.win32b.bcc32" name="option.Od.enabled" value="1"/>
+        <property category="win32.config3.win32b.bcc32" name="option.k.enabled" value="1"/>
+        <property category="win32.config3.win32b.bcc32" name="option.r.enabled" value="0"/>
+        <property category="win32.config3.win32b.bcc32" name="option.v.enabled" value="1"/>
+        <property category="win32.config3.win32b.bcc32" name="option.vi.enabled" value="0"/>
+        <property category="win32.config3.win32b.bcc32" name="option.y.enabled" value="1"/>
+        <property category="win32.config3.win32b.dcc32" name="option.$D.enabled" value="1"/>
+        <property category="win32.config3.win32b.dcc32" name="option.$O.enabled" value="0"/>
+        <property category="win32.config3.win32b.dcc32" name="option.D.arg.1" value="DEBUG"/>
+        <property category="win32.config3.win32b.dcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.config3.win32b.dcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.config3.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.config3.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\release"/>
+        <property category="win32.config3.win32b.ilink32" name="option.L.arg.2" value="$(BDS)\lib\debug"/>
+        <property category="win32.config3.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.config3.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.config3.win32b.tasm32" name="option.z.enabled" value="1"/>
+        <property category="win32.config3.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.config3.win32b.tasm32" name="option.zi.enabled" value="1"/>
+        <property category="win32.config3.win32b.tasm32" name="param.listfile.merge" value="1"/>
+        <property category="win32.config3.win32b.tasm32" name="param.objfile.merge" value="1"/>
+        <property category="win32.config3.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        <property category="win32.config4.win32b.bcc32" name="option.D.arg.1" value="_DEBUG"/>
+        <property category="win32.config4.win32b.bcc32" name="option.D.arg.2" value="LINK_PERL"/>
+        <property category="win32.config4.win32b.bcc32" name="option.D.arg.3" value="LINK_CONF"/>
+        <property category="win32.config4.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.config4.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.config4.win32b.bcc32" name="option.Od.enabled" value="1"/>
+        <property category="win32.config4.win32b.bcc32" name="option.k.enabled" value="1"/>
+        <property category="win32.config4.win32b.bcc32" name="option.r.enabled" value="0"/>
+        <property category="win32.config4.win32b.bcc32" name="option.v.enabled" value="1"/>
+        <property category="win32.config4.win32b.bcc32" name="option.vi.enabled" value="0"/>
+        <property category="win32.config4.win32b.bcc32" name="option.y.enabled" value="1"/>
+        <property category="win32.config4.win32b.dcc32" name="option.$D.enabled" value="1"/>
+        <property category="win32.config4.win32b.dcc32" name="option.$O.enabled" value="0"/>
+        <property category="win32.config4.win32b.dcc32" name="option.D.arg.1" value="DEBUG"/>
+        <property category="win32.config4.win32b.dcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.config4.win32b.dcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.config4.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.config4.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\release"/>
+        <property category="win32.config4.win32b.ilink32" name="option.L.arg.2" value="$(BDS)\lib\debug"/>
+        <property category="win32.config4.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.config4.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.config4.win32b.tasm32" name="option.z.enabled" value="1"/>
+        <property category="win32.config4.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.config4.win32b.tasm32" name="option.zi.enabled" value="1"/>
+        <property category="win32.config4.win32b.tasm32" name="param.listfile.merge" value="1"/>
+        <property category="win32.config4.win32b.tasm32" name="param.objfile.merge" value="1"/>
+        <property category="win32.config4.win32b.tasm32" name="param.xreffile.merge" value="1"/>
         <optionset name="all_configurations">
           <property category="node" name="displayname" value="Toutes les configurations"/>
           <property category="win32.*.win32b.bcc32" name="option.H=.arg.1" value="$(BDS)\lib\vcl100.csm"/>

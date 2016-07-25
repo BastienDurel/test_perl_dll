@@ -5,3 +5,5 @@
 /perl522.dll
 /confdll.dll
 /Debug_Build/test_perl_dll.tds
+/test_perl_dll.mak
+/Debug_Build/test_perl_dll.exe
