@@ -1,0 +1,6 @@
+/__history
+/*.bcc32pch
+/*.local
+/Debug_Build/*.obj
+/perl522.dll
+/confdll.dll

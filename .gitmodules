@@ -1,0 +1,3 @@
+[submodule "confdll"]
+	path = confdll
+	url = https://github.com/BastienDurel/confdll.git
